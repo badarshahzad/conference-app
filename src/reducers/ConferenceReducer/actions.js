@@ -16,7 +16,6 @@ export function conferenceFail(error) {
 export function getInfo() {
   return dispatch => {
     dispatch(conference());
-
     return service
       .getInfo()
       .then(response => response.json())

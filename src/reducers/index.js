@@ -1,4 +1,4 @@
-import { combineReducers } from 'redux';
-import  from './ConferenceReducer';
+import { combineReducers } from "redux";
+import conference from "./ConferenceReducer";
 
-export default combineReducers({conference});
+export default combineReducers({ conference });
