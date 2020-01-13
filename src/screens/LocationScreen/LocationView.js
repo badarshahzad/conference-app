@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { MapView } from 'expo'
-import config from '../../config';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { View, Text } from "react-native";
+import { MapView } from "expo";
+import config from "../../config";
 
 class LocationView extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
-      conference: {},
+      conference: {}
     };
   }
 
@@ -27,41 +27,28 @@ class LocationView extends Component {
     }
   }
 
-  setMarkerRef = (ref) => {
+  setMarkerRef = ref => {
     this.marker = ref;
     if (this.marker) {
       this.marker.showCallout();
     }
-  }
+  };
 
   render() {
-    const location = (this.props.conference.location||{});
+    const location = this.props.conference.location || {};
     return (
-      <MapView
-        style={{ flex: 1 }}
-        region={{
-          latitude: location.latitude || 6.2518400,
-          longitude: location.longitude || -75.5635900,
-          latitudeDelta: 0.015,
-          longitudeDelta: 0.015,
-        }} loadingEnabled={true}
-          loadingBackgroundColor={config.PRIMARY_BG_COLOR}
-          loadingIndicatorColor={config.PRIMARY_TEXT_COLOR}>
-        {
-          location.latitude?
-              <MapView.Marker
-                  title={this.props.conference.name}
-                  description={location.address}
-                  coordinate={{
-                      latitude: Number(location.latitude),
-                      longitude: Number(location.longitude)
-                  }}
-                  ref={this.setMarkerRef}/>:null
-        }
-      </MapView>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "#ffffff"
+        }}
+      >
+        <Text>Here we will add the Map..</Text>
+      </View>
     );
   }
-
 }
 
 LocationView.propTypes = {

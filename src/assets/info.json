@@ -1,5 +1,5 @@
 {
-  "name": "NR3C 2020",
+  "name": "Common Training Programme",
   "location": {
     "city": "Islamabad, PK",
     "address": "Allama Iqbal Open University, Islamabad",
@@ -8,233 +8,172 @@
   },
   "banner": "../assets/nr3c.jpg",
   "date": "Jan 13, 2020",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in metus ac turpis cursus suscipit at a nisi. Praesent eu vehicula ante. Nullam viverra diam erat, at venenatis leo rutrum non. Integer vulputate aliquam augue, et hendrerit erat pellentesque in. Suspendisse tempor urna lorem, quis ornare tellus tristique et.",
+  "description": "This ",
   "speakers": [
     {
-      "name": "Dawn Schneider",
-      "bio": "Nisi eiusmod Lorem tempor nulla cillum ullamco. Tempor cupidatat ad duis incididunt ut nulla ea laborum labore occaecat laborum. Proident nostrud ea mollit esse veniam culpa do minim eiusmod. Deserunt pariatur proident excepteur dolor.\r\n",
+      "name": "Mirvais Niaz",
+      "bio": "Dedicated, decisive, and compassionate police Officer with over nine years of progressive experience in police force of Pakistan.   \nSpecialties: Prevention and detection of suicide bombings.  \nSecuring premises against potential threats especially IEDs.   \nIntelligence gathering and its in timely dispersal.  \nCrime scene search and modern forensic techniques.   \nCrisis response management.   \nInstallation and use of modern preventive gadgetry.      \nBomb disposal and security clearance of buildings.      \nVVIP Escort with preventive measures of entourage and built up area. \r\n",
       "twitter": "esse",
       "github": "occaecat",
-      "subtitle": "Mobile Developer at Buzzopia",
-      "avatar": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/profile/profile-512.jpg?6"
+      "subtitle": "Director Of Administration at Federal Investigation Agency",
+      "avatar": "https://www.linkedin.com/in/mirvais-niaz-303180a/detail/photo/"
     }
   ],
   "events": [
     {
-      "title": "8:00 am",
+      "title": "Monday - 13-01-2020 \n\n Day 1",
       "data": [
         {
-          "name": "Breakfast",
-          "time": "8:00 am - 9:00 am",
-          "place": "Main hallway",
+          "name": "History and Organizational Structure of FIA",
+          "time": "9:00 am - 11:00 am",
+          "place": " by Mirvais Niaz, Director Administration FIA",
           "color": "#33E4F0"
         },
         {
-          "name": "Meet and Greet",
-          "time": "9:00 am - 9:15 am",
-          "place": "Main hallway",
+          "name": "Tea Break",
+          "time": "11:00 am - 11:30 am",
+          "place": " ",
+          "color": "#00FF00"
+        },
+        {
+          "name": "FIA Circle Management",
+          "time": "11:30 am - 01:30 pm",
+          "place": " by Mr. Tahir Tanveer, Assistant Director FIA",
           "color": "#33E4F0"
-        }
-      ]
-    },
-    {
-      "title": "9:15 am",
-      "data": [
-        {
-          "name": "Introduction to Booster.io",
-          "time": "9:15 am - 9:30 am",
-          "place": "Room 2203",
-          "color": "#3392F0",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
         },
         {
-          "name": "Getting started with React Native",
-          "time": "9:30 am - 9:45 am",
-          "place": "Room 2202",
-          "color": "#3392F0",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Lunch Break",
+          "time": "01:30 pm - 02:00 pm",
+          "place": " ",
+          "color": "#00FF00"
         },
         {
-          "name": "Advanced JSX",
-          "time": "9:45 am - 10:00 am",
-          "place": "Room 2204",
-          "color": "#F05233",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
-        }
-      ]
-    },
-    {
-      "title": "10:00 am",
-      "data": [
-        {
-          "name": "Migration to Expo",
-          "time": "10:00 am - 10:15 am",
-          "place": "Room 2203",
-          "color": "#C12071",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
-        },
-        {
-          "name": "React Native SVG Icons",
-          "time": "10:15 am - 10:30 am",
-          "place": "Room 2202",
-          "color": "#30C120",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
-        },
-        {
-          "name": "HapiJS Services",
-          "time": "10:30 am - 10:45 am",
-          "place": "Room 2204",
-          "color": "#DEC311",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
-        },
-        {
-          "name": "Workshop - Advanced JSX",
-          "time": "10:45 am - 11:00 am",
-          "place": "Room 2201",
-          "color": "#36BBE4",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
-        }
-      ]
-    },
-    {
-      "title": "11:00 am",
-      "data": [
-        {
-          "name": "Migration from Ionic",
-          "time": "11:00 am - 11:15 am",
-          "place": "Room 2203",
-          "color": "#C12071",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
-        },
-        {
-          "name": "Community Integration",
-          "time": "11:15 am - 11:30 am",
-          "place": "Room 2202",
-          "color": "#808080",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
-        },
-        {
-          "name": "Feathers Workshop",
-          "time": "11:30 am - 12:00 pm",
-          "place": "Room 2204",
-          "color": "#DEC311",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
-        }
-      ]
-    },
-    {
-      "title": "12:00 pm",
-      "data": [
-        {
-          "name": "Lunch",
-          "time": "12:00 pm - 1:15 pm",
-          "place": "Auditorium",
+          "name": "Briefing on Cyber Crime",
+          "time": "02:00 pm - 04:00 pm",
+          "place": " by Mr. Imran Haider, Deputy Director NR3C",
           "color": "#33E4F0"
         }
       ]
     },
     {
-      "title": "1:15 pm",
+      "title": "Tuesday - 14-01-2020 \n\n Day 2",
       "data": [
         {
-          "name": "Introduction to Booster.io",
-          "time": "1:15 pm - 1:30 pm",
-          "place": "Room 2203",
-          "color": "#3392F0",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Cyber Crime Laws",
+          "time": "9:00 am - 11:00 am",
+          "place": " by Mr. Imran Haider, Director Director NR3C",
+          "color": "#33E4F0"
         },
         {
-          "name": "Getting started with React Native",
-          "time": "1:30 pm - 1:45 pm",
-          "place": "Room 2202",
-          "color": "#3392F0",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Tea Break",
+          "time": "11:00 am - 11:30 am",
+          "place": " ",
+          "color": "#00FF00"
         },
         {
-          "name": "Advanced JSX",
-          "time": "1:45 pm - 2:00 pm",
-          "place": "Room 2204",
-          "color": "#F05233",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Briefing on CR.PC, PPC & FIA Act",
+          "time": "11:30 am - 01:00 pm",
+          "place": " by Mr. Naveed Ijaz, Deputy Director Law FIA HQ",
+          "color": "#33E4F0"
+        },
+        {
+          "name": "Lunch Break",
+          "time": "01:00 pm - 02:00 pm",
+          "place": " ",
+          "color": "#00FF00"
+        },
+        {
+          "name": "Special Laws",
+          "time": "02:00 pm - 04:00 pm",
+          "place": " by Mr. Malik Tariq, Additional Director Law",
+          "color": "#33E4F0"
         }
       ]
     },
     {
-      "title": "2:00 pm",
+      "title": "Wednesday - 15-01-2020 \n\n Day 3",
       "data": [
         {
-          "name": "Migration to Expo",
-          "time": "2:00 pm - 2:15 pm",
-          "place": "Room 2203",
-          "color": "#C12071",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Constitution of Pakistan (Human Rights and Islamic Articles)",
+          "time": "9:00 am - 11:00 am",
+          "place": " by Shoukat Ali Khan, Ex. Director Law FIA",
+          "color": "#33E4F0"
         },
         {
-          "name": "React Native SVG Icons",
-          "time": "2:15 pm - 2:30 pm",
-          "place": "Room 2202",
-          "color": "#30C120",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Tea Break",
+          "time": "11:00 am - 11:30 am",
+          "place": " ",
+          "color": "#00FF00"
         },
         {
-          "name": "HapiJS Services",
-          "time": "2:30 pm - 2:45 pm",
-          "place": "Room 2204",
-          "color": "#DEC311",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Police Rules 1934",
+          "time": "11:30 am - 01:0 pm",
+          "place": " by Shoukat Ali Khan, Ex. Director Law FIA",
+          "color": "#33E4F0"
         },
         {
-          "name": "Workshop - Advanced JSX",
-          "time": "2:45 pm - 3:00 pm",
-          "place": "Room 2201",
-          "color": "#36BBE4",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Lunch Break",
+          "time": "01:30 pm - 02:00 pm",
+          "place": " ",
+          "color": "#00FF00"
+        },
+        {
+          "name": "Ethics and Manners",
+          "time": "02:00 pm - 04:00 pm",
+          "place": " by Mr. Mehmood Alam Masood , ADG FIA HQ",
+          "color": "#33E4F0"
         }
       ]
     },
     {
-      "title": "3:00 pm",
+      "title": "Thursday - 16-01-2020 \n\n Day 4",
       "data": [
         {
-          "name": "Migration from Ionic",
-          "time": "3:00 pm - 3:15 pm",
-          "place": "Room 2203",
-          "color": "#C12071",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Criminal Investigation Skills and Case Management",
+          "time": "9:00 am - 11:00 am",
+          "place": " by Bisharat A Shehzad, ADG FIA HQ",
+          "color": "#33E4F0"
         },
         {
-          "name": "Community Integration",
-          "time": "3:15 pm - 3:30 pm",
-          "place": "Room 2202",
-          "color": "#808080",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Tea Break",
+          "time": "11:00 am - 11:30 am",
+          "place": " ",
+          "color": "#00FF00"
         },
         {
-          "name": "Feathers Workshop",
-          "time": "3:30 pm - 4:00 pm",
-          "place": "Room 2204",
-          "color": "#DEC311",
-          "speaker": "John Doe",
-          "description": "Vivamus lobortis dapibus quam vitae sagittis. In in commodo nisi. In aliquam ante vel mi bibendum, maximus molestie ex pellentesque. Proin maximus efficitur efficitur. Aliquam a dolor ultricies, dapibus metus vitae, rutrum ex. Curabitur bibendum tempor ullamcorper"
+          "name": "Criminal Investigation Skills and Case Management",
+          "time": "11:30 am - 01:30 pm",
+          "place": " by Bisharat A Shehzad, ADG FIA HQ",
+          "color": "#33E4F0"
+        },
+        {
+          "name": "Lunch Break",
+          "time": "01:00 pm - 02:00 pm",
+          "place": " ",
+          "color": "#00FF00"
+        },
+        {
+          "name": "Agency practical work",
+          "time": "02:00 pm - 04:00 pm",
+          "place": " by Mr. Riaz Ahmad Junjoya, Deputy Director FIA",
+          "color": "#33E4F0"
+        }
+      ]
+    },
+    {
+      "title": "Friday - 17-01-2020 \n\n Day 5",
+      "data": [
+        {
+          "name": "Visit to FIA HQ",
+          "time": "9:00 am - 11:00 am",
+          "place": " ",
+          "color": "#33E4F0"
+        },
+        {
+          "name": "Lunch Break",
+          "time": "01:30 pm - 02:00 pm",
+          "place": " ",
+          "color": "#00FF00"
         }
       ]
     }
