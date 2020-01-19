@@ -10,9 +10,9 @@ export default StyleSheet.create({
   cardType: {
     borderWidth: 0.5,
     borderRadius: 8,
-    borderColor: "#ddd",
+    borderColor: "#2C5F2DFF",
     borderBottomWidth: 0,
-    shadowColor: "#000",
+    shadowColor: "#FFE77AFF",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.8,
     shadowRadius: 2,
@@ -23,13 +23,23 @@ export default StyleSheet.create({
     marginLeft: 16,
     marginTop: 8,
     marginBottom: 8,
-    backgroundColor: "#ffffff"
+    backgroundColor: "#FFE77AFF"
+    // backgroundColor: "#2C5F2DFF",
+    // opacity: 0.8
   },
   title: {
     fontSize: 19,
     fontWeight: "bold",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    color: "#2C5F2DFF"
+  },
+  mainTitle: {
+    fontSize: 21,
+    fontWeight: "bold",
+    justifyContent: "center",
+    alignItems: "center",
+    color: "#2C5F2DFF"
   },
   description: {
     marginTop: 10,

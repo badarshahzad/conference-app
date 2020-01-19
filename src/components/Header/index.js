@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import { Image, Text, View } from 'react-native';
-import { connect } from 'react-redux';
-import { getInfo } from '../../reducers/ConferenceReducer/actions';
+import React, { Component } from "react";
+import { Image, Text, View } from "react-native";
+import { connect } from "react-redux";
+import { getInfo } from "../../reducers/ConferenceReducer/actions";
 import PropTypes from "prop-types";
-import config from '../../config';
+import config from "../../config";
 
 const mapStateToProps = state => ({
   ...state.conference
@@ -16,11 +16,10 @@ const mapDispatchToProps = dispatch => ({
 });
 
 class Header extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
-      conference: {},
+      conference: {}
     };
   }
 
@@ -40,21 +39,31 @@ class Header extends Component {
   }
 
   render() {
-    if(this.props.conference.logo){
+    if (this.props.conference.logo) {
       return (
         <Image
-          source={{uri: this.props.conference.logo}}
-          style={{ width: 55.05, height: 26, resizeMode: 'stretch' }}
+          source={{ uri: this.props.conference.logo }}
+          style={{ width: 55.05, height: 26, resizeMode: "stretch" }}
         />
       );
     } else {
+      {
+        /* this.props.conference.name */
+      }
       return (
-        <View style={{flex:1, alignItems: "center"}}>
-          <Text style={{color: config.SECONDARY_BG_COLOR, fontSize: 18, fontWeight: "700"}}>{this.props.conference.name}</Text>
+        <View style={{ flex: 1, alignItems: "center" }}>
+          <Text
+            style={{
+              color: config.SECONDARY_BG_COLOR,
+              fontSize: 18,
+              fontWeight: "700"
+            }}
+          >
+            {"Common Training Programme"}
+          </Text>
         </View>
       );
     }
-
   }
 }
 

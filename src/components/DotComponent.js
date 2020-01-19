@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     borderRadius: 24,
     width: 12,
     height: 12,
-    backgroundColor: "rgb(52,73,94)"
+    backgroundColor: "#2C5F2DFF"
   },
   innerCircle: {
     borderRadius: 16,
@@ -40,6 +40,6 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     width: 4,
     height: 4,
-    backgroundColor: "rgb(52,73,94)"
+    backgroundColor: "#2C5F2DFF"
   }
 });

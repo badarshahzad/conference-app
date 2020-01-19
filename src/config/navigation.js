@@ -27,8 +27,8 @@ export default StackNavigator({
           name: "Schedule",
           screen: ScheduleScreen
         },
-        Speakers: {
-          name: "Speakers",
+        Modules: {
+          name: "Modules",
           screen: SpeakersScreen
         },
         Map: {
@@ -52,16 +52,16 @@ export default StackNavigator({
           tabBarIcon: ({ focused, tintColor }) => {
             const { routeName } = navigation.state;
             let iconName;
-            if (routeName === "Schedule") {
+            if (routeName === "Overview") {
+              iconName = "home";
+            } else if (routeName === "Schedule") {
               iconName = "calendar";
-            } else if (routeName === "Speakers") {
-              iconName = "users";
+            } else if (routeName === "Modules") {
+              iconName = "book-open";
             } else if (routeName === "Map") {
               iconName = "map";
             } else if (routeName === "Message") {
               iconName = "mail";
-            } else if (routeName === "Overview") {
-              iconName = "home";
             }
             return <Icon name={iconName} size={25} color={tintColor} />;
           }
